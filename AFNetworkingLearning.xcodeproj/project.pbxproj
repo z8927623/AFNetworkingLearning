@@ -14,6 +14,8 @@
 		B8BDC98F1A9797C200DE40E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BDC98E1A9797C200DE40E9 /* Images.xcassets */; };
 		B8BDC9921A9797C200DE40E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BDC9901A9797C200DE40E9 /* LaunchScreen.xib */; };
 		B8BDC99E1A9797C200DE40E9 /* AFNetworkingLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BDC99D1A9797C200DE40E9 /* AFNetworkingLearningTests.m */; };
+		B8BDC9AA1A97985200DE40E9 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BDC9A91A97985200DE40E9 /* AFHTTPClient.m */; };
+		B8BDC9AD1A983A7400DE40E9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BDC9AC1A983A7400DE40E9 /* AFURLConnectionOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B8BDC9971A9797C200DE40E9 /* AFNetworkingLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BDC99C1A9797C200DE40E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8BDC99D1A9797C200DE40E9 /* AFNetworkingLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingLearningTests.m; sourceTree = "<group>"; };
+		B8BDC9A81A97985200DE40E9 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		B8BDC9A91A97985200DE40E9 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		B8BDC9AB1A983A7400DE40E9 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		B8BDC9AC1A983A7400DE40E9 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		B8BDC9801A9797C200DE40E9 /* AFNetworkingLearning */ = {
 			isa = PBXGroup;
 			children = (
+				B8BDC9A71A97984100DE40E9 /* AFNetworking */,
 				B8BDC9851A9797C200DE40E9 /* AppDelegate.h */,
 				B8BDC9861A9797C200DE40E9 /* AppDelegate.m */,
 				B8BDC9881A9797C200DE40E9 /* ViewController.h */,
@@ -117,6 +124,17 @@
 				B8BDC99C1A9797C200DE40E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8BDC9A71A97984100DE40E9 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B8BDC9AB1A983A7400DE40E9 /* AFURLConnectionOperation.h */,
+				B8BDC9AC1A983A7400DE40E9 /* AFURLConnectionOperation.m */,
+				B8BDC9A81A97985200DE40E9 /* AFHTTPClient.h */,
+				B8BDC9A91A97985200DE40E9 /* AFHTTPClient.m */,
+			);
+			name = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +240,8 @@
 				B8BDC98A1A9797C200DE40E9 /* ViewController.m in Sources */,
 				B8BDC9871A9797C200DE40E9 /* AppDelegate.m in Sources */,
 				B8BDC9841A9797C200DE40E9 /* main.m in Sources */,
+				B8BDC9AA1A97985200DE40E9 /* AFHTTPClient.m in Sources */,
+				B8BDC9AD1A983A7400DE40E9 /* AFURLConnectionOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
